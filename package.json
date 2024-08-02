@@ -1,21 +1,11 @@
 {
-  "name": "lms-tutorial",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint",
-    "postinstall": "prisma generate"
-  },
   "dependencies": {
-    "@clerk/nextjs": "^4.23.5",
+    "@clerk/nextjs": "^5.1.5",
     "@hello-pangea/dnd": "^16.3.0",
     "@hookform/resolvers": "^3.3.1",
     "@mux/mux-node": "^7.3.1",
     "@mux/mux-player-react": "^1.14.2",
-    "@prisma/client": "^5.3.1",
+    "@prisma/client": "^5.17.0",
     "@radix-ui/react-alert-dialog": "^1.0.4",
     "@radix-ui/react-checkbox": "^1.0.4",
     "@radix-ui/react-dialog": "^1.0.4",
@@ -38,8 +28,8 @@
     "eslint": "8.49.0",
     "eslint-config-next": "13.4.12",
     "lucide-react": "^0.279.0",
-    "next": "13.4.12",
-    "postcss": "8.4.29",
+    "next": "^14.2.5",
+    "postcss": "^8.4.40",
     "query-string": "^8.1.0",
     "reacharts": "^0.4.5",
     "react": "18.2.0",
@@ -61,6 +51,16 @@
     "zustand": "^4.4.1"
   },
   "devDependencies": {
-    "prisma": "^5.3.1"
-  }
+    "prisma": "^5.17.0"
+  },
+  "name": "lms-tutorial",
+  "private": true,
+  "scripts": {
+    "build": "next build",
+    "dev": "next dev",
+    "lint": "next lint",
+    "postinstall": "prisma generate",
+    "start": "next start"
+  },
+  "version": "0.1.0"
 }
